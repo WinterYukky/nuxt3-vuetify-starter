@@ -6,4 +6,7 @@ export default defineNuxtConfig({
     shim: false,
     strict: true,
   },
+  experimental: {
+    reactivityTransform: true,
+  },
 })
